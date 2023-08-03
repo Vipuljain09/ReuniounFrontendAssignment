@@ -95,6 +95,7 @@
     padding:0px;
 }
 .menubar-link{
+    text-decoration: none;
     text-align: center;
     color: var(--primary);
     font-size: 23px;
