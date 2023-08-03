@@ -1,0 +1,17 @@
+
+.rent{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: var(--light_gray);
+    padding: 30px 100px 30px 100px;
+}
+
+.rent-item-list{
+    /* margin-top: 30px; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-around;
+}

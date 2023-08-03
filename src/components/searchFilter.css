@@ -1,0 +1,115 @@
+.search-filter-container {
+  width: 100%;
+}
+
+.search-filter-header {
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search-filter-heading {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+.search-filter-heading-input {
+  padding: 5px 10px;
+  font-size: 17px;
+  outline: none;
+  color: var(--gray);
+  border: 2px solid var(--gray);
+  border-radius: 3px;
+}
+
+.search-filter-inputs-container {
+  /* width: 100%; */
+  padding: 15px 20px;
+  background-color: var(--white);
+  border-radius: 3px;
+  font-family: "Roboto", sans-serif;
+}
+
+.search-filter-input-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-filter-input-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.search-filter-input-item-heading {
+  color: var(--gray);
+  font-size: 14px;
+  font-weight: 500;
+  padding: 2px;
+}
+.search-filter-input-item-info {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  justify-content: space-between;
+}
+.search-filter-input-item-info-value {
+  font-size: 18px;
+  font-weight: 600;
+}
+.search-filter-input-drop-down {
+  height: 20px;
+  width: 20px;
+  color: var(--primary);
+  border: 1.5px solid var(--gray);
+  border-radius: 5%;
+}
+.search-filter-input-drop-down-option {
+  font-size: 15px;
+}
+.search-filter-input-item-bar {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 2px;
+  color: var(--black);
+}
+.search-filter-input-item-bar::placeholder {
+  color: var(--black);
+}
+
+.search-filter-input-item-submit {
+  font-size: 18px;
+  padding: 8px 16px;
+  color: var(--white);
+  background-color: var(--primary);
+  border-radius: 5%;
+  cursor: pointer;
+}
+.search-filter-input-item-submit:hover {
+  color: var(--primary);
+  background-color: var(--white);
+  border: 3px solid var(--primary);
+  padding: 5px 13px;
+}
+
+@media screen and (max-width: 860px) {
+  .search-filter-header {
+    flex-direction: column;
+  }
+
+  .search-filter-heading {
+    font-size: 25px;
+  }
+  .search-filter-input-items{
+    flex-direction: column;
+    gap: 15px;
+  }
+  .search-filter-input-item{
+    width: 200px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
